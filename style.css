@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    background: #232d61;
+    display: flex;
+    text-align: center;
+    z-index: 100;
+    justify-content: space-between;
+    justify-content: end;
+}
+
+.b1{
+    padding: 10px;
+    border: 2px solid gray;
+    font-size: 16px;
+    background-color: #232d61;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+
+}
+
+
+
+.bar a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+
+.btn button{
+    margin-right: 20px;
+}
+.h-p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 61px;
+    text-align: center;
+    padding: 200px;
+    border: 2px solid transparent;
+    background-image: url(background2.webp);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    
+    
+}
+
+
+
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.mp{
+   margin-bottom: 20px;
+   font-size: 20px; 
+}
+
+
+.m{
+    font-size: 30px;
+    background-color:transparent;
+    border-radius: 7px;
+    margin: 10px;
+    border-color: #fff;
+    color: #fff;
+}
+
+
+
+.Special-box{
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+
+
+.web-box{
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px
+}
+
+.Graphic{
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+.Social{
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
